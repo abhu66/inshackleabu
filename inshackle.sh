@@ -416,7 +416,6 @@ sleep 5
 
 username_id=$(curl -L -s 'https://www.instagram.com/'$user'' > getid && grep -o  'profilePage_[0-9]*.' getid | cut -d "_" -f2 | tr -d '"')
 
-awkarin="14251396"
 attahalilintar="186744830"
 prillylatuconsina96="225064794"
 raffinagita1717="1918078581"
@@ -429,10 +428,9 @@ anyageraldine="177756402"
 rachelvennya="6935848"
 ferdinan_sule="1778908416"
 andreastaulany="1412790175"
-prabowo="2142213578"
 
 if [[ ! -e celeb_id ]]; then
-printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $awkarin $attahalilintar $prillylatuconsina96 $raffinagita1717 $ayutingting92 $princessyahrini $riericis1795 $raditya_dika $daraarafah $anyageraldine $rachelvennya $ferdinan_sule $andreastaulany $prabowo> celeb_id
+printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $attahalilintar $prillylatuconsina96 $raffinagita1717 $ayutingting92 $princessyahrini $riericis1795 $raditya_dika $daraarafah $anyageraldine $rachelvennya $ferdinan_sule $andreastaulany > celeb_id
 fi
 
 while [[ true ]]; do
