@@ -427,15 +427,12 @@ raditya_dika="25980770"
 daraarafah="621947173"
 anyageraldine="177756402"
 rachelvennya="6935848"
-minang.kocak="2190525047"
 ferdinan_sule="1778908416"
 andreastaulany="1412790175"
 prabowo="2142213578"
 
-
-
 if [[ ! -e celeb_id ]]; then
-printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $awkarin $attahalilintar $prillylatuconsina96 $raffinagita1717 $ayutingting92 $princessyahrini $riericis1795 $raditya_dika $daraarafah $anyageraldine $rachelvennya $minang.kocak $ferdinan_sule $andreastaulany $prabowo> celeb_id
+printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $awkarin $attahalilintar $prillylatuconsina96 $raffinagita1717 $ayutingting92 $princessyahrini $riericis1795 $raditya_dika $daraarafah $anyageraldine $rachelvennya $ferdinan_sule $andreastaulany $prabowo> celeb_id
 fi
 
 while [[ true ]]; do
