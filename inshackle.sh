@@ -4,6 +4,7 @@
 # github.com/thelinuxchoice/inshackle
 # If you use any part from this code, give me the credits, please, read the License
 
+
 string4=$(openssl rand -hex 32 | cut -c 1-4)
 string8=$(openssl rand -hex 32  | cut -c 1-8)
 string12=$(openssl rand -hex 32 | cut -c 1-12)
