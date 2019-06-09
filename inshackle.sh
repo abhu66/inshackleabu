@@ -4,7 +4,6 @@
 # github.com/thelinuxchoice/inshackle
 # If you use any part from this code, give me the credits, please, read the License
 
-
 string4=$(openssl rand -hex 32 | cut -c 1-4)
 string8=$(openssl rand -hex 32  | cut -c 1-8)
 string12=$(openssl rand -hex 32 | cut -c 1-12)
@@ -21,16 +20,9 @@ ig_sig="4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178"
 
 
 banner() {
-printf " \n"
-printf " \e[1;31mM\"\"M\e[0m\e[1;77m                   \e[0m\e[1;93mdP                         dP       \e[0m\e[1;77mdP           \e[0m\n"
-printf " \e[1;31mM  M\e[0m\e[1;77m                   \e[0m\e[1;93m88                         88       \e[0m\e[1;77m88           \e[0m\n"
-printf " \e[1;31mM  M\e[0m\e[1;77m 88d888b. .d8888b. \e[0m\e[1;93m88d888b. .d8888b. .d8888b. 88  .dP  \e[0m\e[1;77m88 .d8888b.  \e[0m\n"
-printf " \e[1;31mM  M\e[0m\e[1;77m 88'  \`88 Y8ooooo. \e[0m\e[1;93m88\'  \`88 88\'  \`88 88'  \`\"\" 88888\"   \e[0m\e[1;77m88 88ooood8  \e[0m\e[0m\n"
-printf " \e[1;31mM  M\e[0m\e[1;77m 88    88       88 \e[0m\e[1;93m88    88 88.  .88 88.  ... 88  \`8b. \e[0m\e[1;77m88 88.  ...  \e[0m\n"
-printf " \e[1;31mM  M\e[0m\e[1;77m dP    dP \`88888P\' \e[0m\e[1;93mdP    dP \`88888P8 \`88888P\' dP   \`YP \e[0m\e[1;77mdP \`88888P\'  \e[0m\n"
-printf " \e[1;31mMMMM\e[0m                                                                    \n"
+printf " \nInshackle_celeb_indo"
+printf "\nThanks to github.com/thelinuxchoice/inshackle"
 printf "\n"
-
 printf "      \e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m github.com/thelinuxchoice/inshackle\e[0m\n"
 }
 
@@ -428,9 +420,13 @@ anyageraldine="177756402"
 rachelvennya="6935848"
 ferdinan_sule="1778908416"
 andreastaulany="1412790175"
+shireensungkar="5729380"
+gisel_la="3261799"
+vaneshaass="8448039"
+nicholassaputra="42495426"
 
 if [[ ! -e celeb_id ]]; then
-printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $attahalilintar $prillylatuconsina96 $raffinagita1717 $ayutingting92 $princessyahrini $riericis1795 $raditya_dika $daraarafah $anyageraldine $rachelvennya $ferdinan_sule $andreastaulany > celeb_id
+printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $attahalilintar $prillylatuconsina96 $raffinagita1717 $ayutingting92 $princessyahrini $riericis1795 $raditya_dika $daraarafah $anyageraldine $rachelvennya $ferdinan_sule $andreastaulany $shireensungkar $gisel_la $vaneshaass $nicholassaputra> celeb_id
 fi
 
 while [[ true ]]; do
