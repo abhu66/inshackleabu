@@ -31,9 +31,8 @@ printf " \e[1;31mM  M\e[0m\e[1;77m dP    dP \`88888P\' \e[0m\e[1;93mdP    dP \`8
 printf " \e[1;31mMMMM\e[0m                                                                    \n"
 printf "\n"
 
-printf "      \e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m github.com/thelinuxchoice/inshackle\e[0m\n"
+printf "      \e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m github.com/xd20111/inshackle\e[0m\n"
 }
-
 
 
 login_user() {
