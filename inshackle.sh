@@ -1,11 +1,13 @@
 #!/bin/bash
 # Inshackle v1.0
+# published by @xd20111 
+# IG @xd_20111
 # coded by: @linux_choice
 # github.com/thelinuxchoice/inshackle
 # If you use any part from this code, give me the credits, please, read the License
 
 
-sstring4=$(openssl rand -hex 32 | cut -c 1-4)
+string4=$(openssl rand -hex 32 | cut -c 1-4)
 string8=$(openssl rand -hex 32  | cut -c 1-8)
 string12=$(openssl rand -hex 32 | cut -c 1-12)
 string16=$(openssl rand -hex 32 | cut -c 1-16)
@@ -33,6 +35,7 @@ printf "\n"
 
 printf "      \e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m github.com/xd20111/inshackle\e[0m\n"
 }
+
 
 
 login_user() {
